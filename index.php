@@ -2,6 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$testInParentFolder = new TestNamespace\TestInParentFolder;
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 
-echo $testInParentFolder->throwAMessage();
+echo $_ENV["APP_URL"];
