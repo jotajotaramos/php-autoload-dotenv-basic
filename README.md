@@ -16,6 +16,10 @@ index.php in order to require the autoload and create the inmutable for the envi
 
 Main controller method execution. It makes a call to the subfolder method.
 
+## Based con the article
+
+[Como una librería me obligó a programar toda una API. Parte II: namespace y .env](https://www.danielprimo.io/blog/como-una-libreria-me-obligo-a-programar-toda-una-api-parte-ii)
+
 ## Install
 
 `composer install`
